@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "AUTTOMATTICC",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "C:\\Users\\husse\\Desktop\\SD\\Automatticc",
+      "DistributionDir": " C:\\Users\\husse\\Desktop\\SD\\Automatticc",
+      "BuildCommand": "npm.cmd run-script build",
+      "StartCommand": "npm.cmd run-script start"
+    }
+  }
+}

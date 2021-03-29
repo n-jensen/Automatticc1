@@ -1,0 +1,14 @@
+type Address @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Street_NB: Int
+  Street_Name: String
+  DL: DL @connection
+}
+
+type DL @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  idN: String
+  name: String
+  last_name: String
+}
+ 
