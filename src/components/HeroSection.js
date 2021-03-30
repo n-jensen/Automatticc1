@@ -7,10 +7,14 @@ import back2 from './video/back2.mp4'
 function HeroSection() {
     return (
         <div className='hero-container'>
+<<<<<<< HEAD
             <video autoPlay loop muted>
                 <source src={back2} type="video/mp4" />
             </video>
             {/* <video src="./videos/back2.mp4"  autoPlay={true} loop muted /> */}
+=======
+            <video src="back2.mp4" type="video/mp4" autoPlay={true} loop muted />
+>>>>>>> 2c689fffa72f9db5f364f72d6621fca4469dcfe9
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">
