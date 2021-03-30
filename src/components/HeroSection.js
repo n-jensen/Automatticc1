@@ -9,7 +9,7 @@ function HeroSection() {
         <div className='hero-container'>
 
             <video autoPlay loop muted>
-                <source src={back2} type="video/mp4" />
+                <source src={back2} />
             </video>
             {/* <video src="./videos/back2.mp4"  autoPlay={true} loop muted /> */}
 
