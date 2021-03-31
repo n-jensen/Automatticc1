@@ -2,13 +2,12 @@ import React from 'react'
 import { Button } from './Button'
 import '../App.css'
 import './HeroSection.css'
-import back2 from 'https://videosauto.s3.us-east-2.amazonaws.com/videos/back2.mp4'
 
 function HeroSection() {
     return (
         <div className='hero-container'>
 
-            <video src={back2}  autoPlay={true} loop muted />
+            <video src="https://videosauto.s3.us-east-2.amazonaws.com/videos/back2.mp4" type="video/mp4" Content-Type="text/html" autoPlay={true} loop muted />
 
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for helo?</p>
