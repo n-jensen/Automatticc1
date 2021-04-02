@@ -18,5 +18,6 @@ function HeroSection() {
         </div>
     )
 }
+<div className="samera"></div>
 
 export default HeroSection
